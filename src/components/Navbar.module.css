@@ -1,0 +1,32 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    height: 8vw;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 1px 5px 7px gray;
+}
+
+.navbar_container ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 3vw;
+}
+
+.navbar_container li{
+    margin-right: 1em;
+}
+
+.navbar_container a{
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.navbar_container a:hover{
+    color: #ffbb33;
+}

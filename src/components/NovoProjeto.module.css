@@ -1,0 +1,38 @@
+.form h1{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  margin-top: -25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form input,
+.form select {
+  width: 30%;
+  padding: 9px;
+  border-radius: 0;
+  border: 1px solid #222;
+  margin: 2px auto;
+}
+
+.form button {
+  background-color: #222;
+  color: #ffbb33;
+  border: 2px solid black;
+  width: 30%;
+  height: 4vw;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px auto;
+  transition: 0.2s;
+}
+
+.form button:hover {
+  color: white;
+}

@@ -1,0 +1,29 @@
+.button_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+
+.pesquisa_container button{
+    background-color: #222;
+    color: #ffbb33;
+    border: 2px solid black;
+    width: 10%;
+    height: 4vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.pesquisa_container button:hover{
+    color: white;
+}
+
+.itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1vw;
+    flex-wrap: wrap;
+}
