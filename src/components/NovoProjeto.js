@@ -13,7 +13,7 @@ export default function NovoProjeto() {
 
   const produto = {
     nome: name,
-    preço: preco,
+    preço: Number(preco),
     tipo: type,
     img: "https://via.placeholder.com/80",
   };

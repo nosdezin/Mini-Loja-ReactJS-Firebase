@@ -6,7 +6,9 @@
 .card_container{
     background-color: #222;
     width: 13%;
-    height: 12.5vw;
+    height: 5%;
+    min-height: 12.5vw;
+    max-width: 14vw;
     border: 2px solid #ffbb33;
     /* border-radius: 2vw; */
 
